@@ -1,0 +1,31 @@
+:root {
+  --color-hover: #f7d9c4;
+  --color-icon: #ff8484;
+  --backgrount-color: #efefef;
+  --backgound-container: rgb(35, 35, 35);
+  --backgound-container2: rgb(220, 232, 235);
+  --color-text: #232323;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family: "DM Sans", sans-serif;
+}
+
+body{
+  font-family: var(--font-family);
+  background-color: var(--backgrount-color);
+}
+
+@media (min-width: var(--breakpoint-sm)) {
+  .container {
+    padding: 40px;
+  }
+}
+
+@media (min-width: var(--breakpoint-lg)) {
+  .container {
+    padding: 60px;
+  }
+}
