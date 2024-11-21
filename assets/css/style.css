@@ -1,0 +1,84 @@
+/* header */
+.header{
+  box-shadow: 0 1px 3px 0 rgb(0, 0, 0, 0.1);
+}
+
+.header .inner-wrap{
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header .inner-logo a{
+  display: flex;
+  align-items: center;
+}
+
+.header .inner-logo img{
+  width: 50px;
+  height: auto;
+}
+
+.header .inner-logo span{
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-left: 15px;
+}
+
+.header .inner-wrap .inner-menu ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header .inner-wrap .inner-menu ul li a{
+  display: inline-block;
+  padding: 35px 20px;
+  color: var(--color-text);
+  font-size: 18px;
+}
+
+.header .inner-wrap .inner-menu ul li a:hover{
+  background-color: white;
+}
+
+.header .inner-wrap .inner-social ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header .inner-wrap .inner-social ul li {
+  margin: 15px;
+} 
+
+
+/* inline block */
+/* .header .inner-wrap .inner-social ul li a{
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 20px;
+  color: var(--color-text);
+}  */
+
+/* inline flex */
+.header .inner-wrap .inner-social ul li a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 20px;
+  color: var(--color-text);
+}
+
+/* end header */
