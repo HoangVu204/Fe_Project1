@@ -350,7 +350,59 @@
   margin-bottom: -45px;
 }
 
-
-
-
 /* end section three */
+
+/* form contact */
+.button-form{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.button-form:hover{
+  background-color: var(--color-button);
+  border: white;
+  color: black;
+}
+
+.contact-form{
+  padding: 80px 0;
+}
+
+.contact-form .inner-wrap{
+  background-color: var(--background-color-2);
+  padding: 60px;
+  border-radius: 8px;
+}
+
+
+.contact-form .inner-form-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.contact-form .inner-wrap input{
+  width: 33%;
+  border-radius: 8px;
+  border: white;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  outline: 0cap;
+}
+
+.contact-form .inner-wrap textarea{
+  width: 100%;
+  border-radius: 8px;
+  border: white;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  outline: 0cap;
+}
+.contact-form .inner-wrap .inner-button{
+  text-align: right;
+}
+/* end form contact */
